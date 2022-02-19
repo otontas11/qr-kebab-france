@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <title>Photo Gallery</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        crossorigin="anonymous">
+
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <ul class="switcher">
+                    <li data-cat=".all" class="active">Tous les Menus</li>
+                    <li data-cat=".mobile">Sandwich</li>
+                    <li data-cat=".camera">Sandwich && Barquettes</li>
+                    <li data-cat=".headphone">Assiettes</li>
+                    <li data-cat=".watch">Assiettes && Boissons</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row  ">
+
+            <div class="col-lg-4 col-1">
+                <div class="thumbnail img-responsive  ">
+                    <a href="#" title="Image 1"><img class="mobile all" src="./Picture1.png"></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-1">
+                <div class="thumbnail img-responsive ">
+                    <a href="#" title="Image 1"><img class="camera all" src="./Picture2.png"></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12">
+                <div class="thumbnail img-responsive  ">
+                    <a href="#" title="Image 1"><img class="headphone all" src="./Picture3.png"></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12">
+                <div class="thumbnail img-responsive  ">
+                    <a href="#" title="Image 1"><img class="watch all" src="./Picture4.png"></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                </div>
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

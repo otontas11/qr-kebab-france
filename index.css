@@ -1,0 +1,124 @@
+
+.container h1 {
+    font-family: 'Raleway';
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-size: 50px;
+}
+hr {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.thumbnail {
+    padding: initial !important;
+    margin-bottom:6px;
+    display:flex;
+    flex-wrap: wrap;
+    border: initial !important;
+}
+.modal-dialog {
+    top: 50px;
+    
+}
+.close{
+    font-size: 25px !important;
+}
+.modal-header {
+    padding: 8px 15px 10px 15px !important;
+    border-top: 1px solid #e5e5e5 !important;
+    border-bottom: initial !important;
+}
+.modal-body{
+    padding: 8px !important;
+}
+img{
+    border-radius: 8px !important;
+}
+.blur {
+    transform: scale(0.9);
+    opacity: 0.6;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+
+.myFooter {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+footer {
+    background: #000;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(0, 0, 0);
+    max-width: 100%;
+    margin-top: auto;
+}
+
+
+.footer-icons {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 5px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 15px;
+}
+
+.footer-bottom {
+    text-align: center;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+}
+a:visited, a:focus{
+    color: white;
+}
+
+footer a:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.switcher {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    width: fit-content;
+    padding: 14px 20px;
+  }
+  
+  .switcher li {
+    border-radius: 4px;
+    padding: 6px 12px;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: 0.2s linear;
+    font-size: 20px;
+    user-select: none;
+    margin: 5px;
+  }
+  
+  .switcher li.active {
+    background-color: #f05;
+  }
+
+
+
+
+ 
