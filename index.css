@@ -1,4 +1,15 @@
 
+*
+{
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    color: #000000;
+    line-height: 1.9;
+  
+}
+ 
+ 
+
 .container h1 {
     font-family: 'Raleway';
     font-weight: 900;
@@ -112,10 +123,17 @@ footer a:hover {
     font-size: 20px;
     user-select: none;
     margin: 5px;
+    border-radius: 20px;
+	transition: width 0.4s;
+
+  }
+  .width{
+    color: aliceblue;
   }
   
   .switcher li.active {
-    background-color: #f05;
+    background-color: rgb(218, 41, 28);
+    color: aliceblue;
   }
 
 
