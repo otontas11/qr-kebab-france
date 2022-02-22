@@ -125,6 +125,7 @@ footer a:hover {
     margin: 5px;
     border-radius: 20px;
 	transition: width 0.4s;
+    border: 2px solid #9797ff;
 
   }
   .width{
@@ -134,9 +135,66 @@ footer a:hover {
   .switcher li.active {
     background-color: rgb(218, 41, 28);
     color: aliceblue;
+    border: 2px solid black;
   }
 
 
+@-webkit-keyframes fade-in-out {
+    0% {
+        letter-spacing: -0.5em;
+        filter: blur(12px) opacity(0%);
+    }
+    30% {
+        letter-spacing: 0;
+        filter: blur(0) opacity(1);
+    }
+    70% {
+        letter-spacing: 0;
+        filter: blur(0) opacity(1);
+    }
+    100% {
+        letter-spacing: -0.5em;
+        filter: blur(12px) opacity(0%);
+    }
+}
+
+.blurOut {
+    color: #0a4090;
+    text-shadow: 2px 2px 5px #0a5890;
+    font-family: 'Lemonada', cursive;
+    font-weight: bold;
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    animation-name: fade-in-out;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
 
 
- 
+.top-title{
+    text-transform: uppercase;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.kebab-imgs{
+    margin-top: 80px;
+}
+ .top-title-text{
+     display: flex;
+    flex-direction: column;
+     align-items: center;
+     font-weight: bolder;
+     color: white
+ }
+.grill, .phone{
+    color: white;
+    font-size: 20px;
+}
+.phone{
+    margin-top: -20px;
+}
