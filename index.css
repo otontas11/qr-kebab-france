@@ -116,13 +116,14 @@ footer a:hover {
   
   .switcher li {
     border-radius: 4px;
-    padding: 6px 12px;
+    padding: 2px 12px;
     background-color: #ccc;
     cursor: pointer;
     transition: 0.2s linear;
-    font-size: 20px;
+    font-size: 18px;
     user-select: none;
-    margin: 5px;
+    margin-bottom: 8px;
+    margin-right: 4px;
     border-radius: 20px;
 	transition: width 0.4s;
     border: 2px solid #9797ff;
