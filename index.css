@@ -209,15 +209,21 @@ footer a:hover {
     color: white;
     font-size: 20px;
 }
-.phone{
-    margin-top: -20px;
-}
+ 
 .phone-icon{
     width: 25px !important;
     height: 25px !important;
+    display: block !important;
+    margin-right: 8px;
     margin-left: -8px;
-    margin-top: -4px;
+ 
+ 
 }
-.phone-area{
-    margin-top: -12px;
+ 
+.phone-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -16px;
+ 
 }
