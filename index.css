@@ -9,7 +9,6 @@
 }
  
  
-
 .container h1 {
     font-family: 'Raleway';
     font-weight: 900;
@@ -173,6 +172,13 @@ footer a:hover {
     animation-iteration-count: infinite;
 }
 
+.top-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 
 .top-title{
     text-transform: uppercase;
@@ -186,12 +192,17 @@ footer a:hover {
     margin-top: 80px;
 }
  .top-title-text{
-     display: flex;
-    flex-direction: column;
+     display: flex; 
+    flex-direction: row;
      align-items: center;
      font-weight: bolder;
      color: white
  }
+
+ .logo{
+    width: 110px;
+    display: block !important;
+    }
 .grill, .phone{
     color: white;
     font-size: 20px;
